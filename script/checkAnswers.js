@@ -32,7 +32,7 @@ function checkAnswer(answer){
             }
             else{
                 alert(`Du har fået ${correctAnswers} rigtige ud af ${amountOfQuestions} spørgsmål.`);  
-                
+                //Vi har prøvet at sætte prevetDefault både på form og submit knappen, men det har ingen effekt                
             }
         }
 
