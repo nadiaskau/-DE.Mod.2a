@@ -1,8 +1,8 @@
 "use strict";
 
 import { questions } from "./questions.js";
-import {checkAnswer} from "./checkAnswers.js";
- 
+import { checkAnswer } from "./checkAnswers.js";
+
 console.log("quiz.js answer");
 
 /*Funtion til at printe vores spørgsmål inkl. kategori og svarmuligheder*/
@@ -49,7 +49,7 @@ function printQuestions(arr) {
       option.setAttribute("type", "radio");
       radioID = "r"; //Vi giver hver enkelt radiobutton eget id
       radioID += radioCounter; //vi lægger tallet til
-      radioCounter++; //vi lader tallet vokse 
+      radioCounter++; //vi lader tallet vokse
       option.setAttribute("id", radioID);
       option.setAttribute("value", y);
       option.setAttribute("name", radioName); //Vi sætter name, sådan at man kun kan vælge en af mulighederne inden for samme kategori
@@ -60,10 +60,9 @@ function printQuestions(arr) {
   }
 
   quizForm.appendChild(submit);
-  quizForm.addEventListener('submit', function(){
-    checkAnswer(quizForm); 
-  })
-  
+  quizForm.addEventListener("submit", function () {
+    checkAnswer(quizForm);
+  });
 }
 
 printQuestions(questions);

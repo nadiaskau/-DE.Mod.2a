@@ -1,0 +1,25 @@
+{
+  "name": "de.mod.2a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadiaskau/DE.Mod.2a.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadiaskau/DE.Mod.2a/issues"
+  },
+  "homepage": "https://github.com/nadiaskau/DE.Mod.2a#readme"
+}
